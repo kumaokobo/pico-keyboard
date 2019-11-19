@@ -1,7 +1,7 @@
 # Pico Keyboard Rev.1
 
 Pico Keyboard は小さい手でも打鍵しやすいように設計された小型の分割キーボードです.  
-スイッチのフットプリントは通常のCherry MX互換のものより一回り小さい [Kailh Mid-Height](http://www.kailh.com/en/Products/Ks/KHS/) 向けのものを採用しています。  
+スイッチのフットプリントは通常のCherry MX互換より一回り小さい [Kailh Mid-Height](http://www.kailh.com/en/Products/Ks/KHS/) を使っています。  
 
 **English Manual is [here](README.md).**
 
@@ -46,7 +46,7 @@ Pico Keyboard は小さい手でも打鍵しやすいように設計された小
 </p>
 
 
-- PCBに下記をはんだ付けします:
+- PCBの `Mounting Surface` 側に下記をはんだ付けします:
   1. 1N4148ダイオード (向きがあります. カソードが四角型の穴側にくるように差します)<br/><div><img src="img/pico-diode.jpg" alt="pico diode" width="250"/></div>
   2. PJ-320Aコネクタ
   3. タクトスイッチ
@@ -55,9 +55,8 @@ Pico Keyboard は小さい手でも打鍵しやすいように設計された小
 - PCB に上部ケースを取り付けます.
   * M3ネジ(8mm) → 上部ケース → M3ナット → PCB → スペーサー の順番に取り付けます.<br/><div><img src="img/pico-case.jpg" alt="pico case" width="250"/></div>
 - スイッチを嵌めてはんだ付けします.
-- Pro Micro を ヘッダ・ピンにはんだ付けします.
-  - `LEFT` と書いてある側: Pro Micro を表向き(チップが見えるように)にはんだ付けします.
-  - `RIGHT` と書いてある側: Pro Micro を裏向き(チップ類がPCBに向くように)にはんだ付けします.<br/><div><img src="img/pico-promicro.jpg" alt="pico ProMicro" width="250"/></div>
+- Pro Micro を ヘッダ・ピンにはんだ付けします.<br/>
+  Pro Micro が裏向き(チップ類がPCBに向くように)になるようにはんだ付けします.<br/><div><img src="img/pico-promicro.jpg" alt="pico ProMicro" width="250"/></div>
 
 ## ファームウェア
 

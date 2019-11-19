@@ -54,10 +54,9 @@ It adopted the footprint for [Kailh Mid-Height](http://www.kailh.com/en/Products
 - Install upper cases to PCBs.
   * M3x8 screws → upper case → M3 nuts → PCB → spacers.<br/><div><img src="img/pico-case.jpg" alt="pico case" width="250"/></div>
 - Fit switches to the upper cases and solder to the PCB.
-- Solder Pro Micros to the header pins following the PCB labelling.
-  - `LEFT` side: Solder Pro Micro face up.
-  - `RIGHT` side: Solder Pro Micro face down.
-  <img src="img/pico-promicro.jpg" alt="pico ProMicro" width="250"/>
+- Solder Pro Micros to the header pins.
+  * Solder Pro Micro face down.<br/><div>
+  <img src="img/pico-promicro.jpg" alt="pico ProMicro" width="250"/></div>
 
 
 ## Firmware
