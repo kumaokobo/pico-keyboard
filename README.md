@@ -26,7 +26,7 @@ It adopted the footprint for [Kailh Mid-Height](http://www.kailh.com/en/Products
 |   2 | PJ-320A 4 poles 3.5 mm TRRS connectors        |                                                     |
 |   2 | 4.7 kΩ resistors                              | Need to be soldered on one half only                |
 |   2 | Through hole momentary switch                 | Dimensions 6mm x 6mm x 4.3mm                        |
-|   2 | Arduino Pro Micro compatible microcontrollers | ATMega32U4                                          |
+|   2 | Arduino Pro Micro                             | ATMega32U4                                          |
 |   1 | TRRS cable                                    |                                                     |
 |   1 | USB micro cable                               |                                                     |
 |   2 | Cases                                         |                                                     |
@@ -45,7 +45,7 @@ It adopted the footprint for [Kailh Mid-Height](http://www.kailh.com/en/Products
 
 ### Installation steps:
 
-- Solder components:
+- Solder components on `Mounting Surface` side:
   1. Solder 1N4148 diodes. Keep the diode legs for the right hand controller installation.<br/><div><img src="img/pico-diode.jpg" alt="pico diode" width="250"/></div>
   2. Solder PJ-320A connectors.
   3. Solder momentary switches.

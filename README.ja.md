@@ -71,7 +71,7 @@ QMK Firmware のインストールは [こちら](https://docs.qmk.fm/#/newbs_ge
 
 ```sh
 $ cd path/to/qmk_firmware
-$ make pico/rev2:default:flash
+$ make pico/rev1:default:flash
 ```
 
 ### 初回書き込み時
