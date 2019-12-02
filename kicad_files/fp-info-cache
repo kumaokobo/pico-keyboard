@@ -1,4 +1,4 @@
-5697385372848841
+5695971846222841
 Battery_Holders
 Bulgin_BX0036_1xC
 
@@ -38946,13 +38946,6 @@ MX-style keyswitch
 MX,cherry,gateron,kailh
 0
 4
-2
-pico_footprints
-Kailh_mid_height_single
-MX-style keyswitch
-MX,cherry,gateron,kailh
-0
-2
 2
 pico_footprints
 Kailh_socket

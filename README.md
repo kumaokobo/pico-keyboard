@@ -5,9 +5,12 @@ It adopted the footprint for [Kailh Mid-Height](http://www.kailh.com/en/Products
 
 **Japanese Manual is [here](README.ja.md).**
 
+<div style="display:block;margin:50px auto;">
 <p align="center">
-<img src="img/pico-keyboard.jpg" alt="Pico Keyboard image" width="400"/>
+<img src="img/pico-keyboard.jpg" alt="Pico Keyboard image" width="320"/>
+<img src="img/pico-keyboard2.jpg" alt="Pico Keyboard image2" width="320"/>
 </p>
+</div>
 
 ## Summary
 
@@ -30,11 +33,20 @@ It adopted the footprint for [Kailh Mid-Height](http://www.kailh.com/en/Products
 |   1 | TRRS cable                                    |                                                     |
 |   1 | USB micro cable                               |                                                     |
 |   2 | Cases                                         |                                                     |
-|   8 | Screws                                        | M3                                                  |
-|   8 | Spacers                                       | M3                                                  |
-|   8 | Nuts                                          | M3                                                  |
+|  10 | Screws                                        | M3                                                  |
+|  10 | Spacers                                       | M3                                                  |
+|   8 | Washers                                       | M3 thickness 0.8mm                                  |
+|   2 | Nuts                                          | M3 thickness 2.4mm                                  |
 |  65 | [Kailh Mid-Height](http://www.kailh.com/en/Products/Ks/KHS/) | Brown, Red or Blue.                  |
 |  65 | [Kailh Mid-Height](http://www.kailh.com/en/Products/Ks/KHS/) compatible keycaps | 65x 1u keycaps    |
+
+> It is possible to assembly Pico Keyboard as 70 keys keyboard.
+> In this case, you need 70 each 1N4148 diodes, switches, keycaps.
+
+
+mulgrey created [Kailh Mid-Height](http://www.kailh.com/en/Products/Ks/KHS/) compatible keycaps! Thanks 🎉  
+Thease are in DMM.make Creator's market.
+- [DMM.make > mini keycap 72 pieces](https://make.dmm.com/item/1125390/)<div><img src="https://img.make.dmm.com/images/item/1125390/main_l.jpg" alt="mini keycaps" width="250"/></div>
 
 
 ## Assembly guide
@@ -52,7 +64,9 @@ It adopted the footprint for [Kailh Mid-Height](http://www.kailh.com/en/Products
   4. Solder 4.7 kΩ resistors **on one half only**.
   5. Solder the Pro Micro header pins (**do not solder the Pro Micro controllers yet**).
 - Install upper cases to PCBs.
-  * M3x8 screws → upper case → M3 nuts → PCB → spacers.<br/><div><img src="img/pico-case.jpg" alt="pico case" width="250"/></div>
+  * M3x10 screws → upper case → washers → PCB → spacers.<br/><div>
+  <img src="img/assembly-case-1.jpg" alt="assembly case 1" width="250"/><span>&nbsp;</span>
+  <img src="img/assembly-case-2.jpg" alt="assembly case 2" width="250"/></div>
 - Fit switches to the upper cases and solder to the PCB.
 - Solder Pro Micros to the header pins.
   * Solder Pro Micro face down.<br/><div>
@@ -122,6 +136,9 @@ Plug in the Pro Micro (Master) the USB cable.
 
 <p align="center">
 <img src="img/pico-layout.png" alt="pico rev1.0 layout"/>
+</p>
+<p align="center">
+<em><a href="http://www.keyboard-layout-editor.com/">http://www.keyboard-layout-editor.com/</a></em>
 </p>
 
 [KLE Layout permalink](http://www.keyboard-layout-editor.com/##@_name=pico-keyboard&author=x1%3Cviva008%2F@gmail.com%3E%3B&@=~%0A%0A%60&_f2:2%3B&=1%0AF1%0A!&=2%0AF2%0A%2F@&=3%0AF3%0A%23&=4%0AF4%0A$&=5%0AF5%0A%25&_x:3%3B&=6%0AF6%0A%5E&=7%0AF7%0A%2F&&=8%0AF8%0A*&=9%0AF9%0A(&=0%0AF10%0A)&=-%0AF11%0A%2F_&=%E2%86%90%0AF12%0Aback%3B&@_x:0.25%3B&=Tab&=Q&=W&=E&=R&=T&_x:3&f:3%3B&=Y%0A(&_f:3%3B&=U%0A)&_f:3%3B&=I%0A%7C&_f:3%3B&=O%0A*&_f:3%3B&=P%0A~&_f:3%3B&=%5B%0A%C2%A5%0A%7B&_f:3%3B&=%5D%0A%5C%0A%7D%3B&@_x:0.5%3B&=Ctrl&=A&=S&=D&=F&=G&_x:3&f:3%3B&=H%0A%5B&_f:3%3B&=J%0A%5D&_f:3%3B&=K%0A.&_f:3%3B&=L%0A%2F%2F&_f:3%3B&=%2F%3B%0A%60%0A%2F:&_f:3%3B&='%0A-%0A%22&=Enter%3B&@_x:0.75%3B&=Shift&=Z&=X&=C&=V&=B&_x:3&f:3%3B&=N%0A%7B&_f:3%3B&=M%0A%7D&_f:3%3B&=,%0A%0A%3C&_f:3%3B&=.%0A%0A%3E&_f:3%3B&=%2F%2F%0A%0A%3F&_f:3%3B&=%E2%86%91%0A%5E&=Shift%3B&@_x:1&f:3%3B&=Alt%0A%0A%0AEsc&=Enter&=Del&=GUI&_fa@:2&:2%3B%3B&=LANG2%0Alayer&_f:3%3B&=Space&_x:3&f:3%3B&=Space&=LANG1%0Alayer&_f:3%3B&=GUI&_f:3%3B&=Del&_f:3%3B&=%E2%86%90%0A%3C&_f:3%3B&=%E2%86%93%0A%2F_&_f:3%3B&=%E2%86%92%0A%3E)
