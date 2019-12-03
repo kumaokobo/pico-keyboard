@@ -43,6 +43,7 @@ It adopted the footprint for [Kailh Mid-Height](http://www.kailh.com/en/Products
 > It is possible to assembly Pico Keyboard as 70 keys keyboard.
 > In this case, you need 70 each 1N4148 diodes, switches, keycaps.
 
+[Pico rev1 Basic](https://kumaokobo.booth.pm/items/1707764) is on sale at [BOOTH](https://kumaokobo.booth.pm/) (**NOT** including switches and keycaps).  
 
 mulgrey created [Kailh Mid-Height](http://www.kailh.com/en/Products/Ks/KHS/) compatible keycaps! Thanks 🎉  
 Thease are in DMM.make Creator's market.
