@@ -49,7 +49,6 @@ Pico Keyboard は小さい手でも打鍵しやすいように設計された小
 
 キーキャップとスイッチ以外の全てを含む [Pico rev1 基本セット](https://kumaokobo.booth.pm/items/1707764) を [BOOTH](https://kumaokobo.booth.pm/) にて販売しています.  
 
-https://kumaokobo.booth.pm/items/1707764
 [Kailh Mid-Height](http://www.kailh.com/en/Products/Ks/KHS/) に適合するキーキャップを mulgray さんが 作成してくれました 🎉  
 DMM.make クリエイターズマーケットにて販売中です.
 - [DMM.make > ミニキーキャップ 72個](https://make.dmm.com/item/1125390/)<div><img src="https://img.make.dmm.com/images/item/1125390/main_l.jpg" alt="mini keycaps" width="250"/></div>
