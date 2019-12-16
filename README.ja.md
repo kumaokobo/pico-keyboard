@@ -156,7 +156,7 @@ $ make pico/65keys:jis:flash
 ### 70キー用キーマップを書き込む場合
 
 `65keys` の箇所を `70keys` に変更して上記1.〜3.を実行します.  
-※ JIS-like配列 は [pico/70keys/keymaps/jis](https://github.com/qmk/qmk_firmware/blob/master/keyboards/pico/70keys/keymaps/jis/keymap.c) に 置いています.  
+※ JIS-like配列 は [pico/70keys/keymaps/jis](https://github.com/qmk/qmk_firmware/blob/master/keyboards/pico/70keys/keymaps/jis/keymap.c) をご覧ください.  
 
 ```sh
 $ cd path/to/qmk_firmware
