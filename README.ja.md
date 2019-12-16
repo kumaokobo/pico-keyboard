@@ -21,6 +21,7 @@ Pico Keyboard は小さい手でも打鍵しやすいように設計された小
     - [基本書き込みコマンド](#基本書き込みコマンド)
     - [初回書き込み時](#初回書き込み時)
     - [JIS配列を書き込む場合](#JIS配列を書き込む場合)
+    - [70キー用キーマップを書き込む場合](#70キー用キーマップを書き込む場合)
 
 ## 必要な部品
 
@@ -96,12 +97,7 @@ $ cd path/to/qmk_firmware
 $ make pico/65keys:default:flash
 ```
 
-※ 70キーとして使う場合は、 `65keys` の箇所を `70keys` に変更します↓.
-
-```sh
-$ cd path/to/qmk_firmware
-$ make pico/70keys:default:flash
-```
+※ 70キー用にキーマップを書き込む場合は、 [70キー用キーマップを書き込む場合](#70キー用キーマップを書き込む場合) をご覧ください.  
 
 
 ### 初回書き込み時
@@ -150,16 +146,17 @@ $ make pico/65keys:default:flash
 
 ### JIS配列を書き込む場合
 
-[pico/keymaps/jis](https://github.com/qmk/qmk_firmware/blob/master/keyboards/pico/65keys/keymaps/jis/keymap.c) に JIS-like配列を置いていますが、[Qmk Firmware](https://github.com/qmk/qmk_firmware) の [keycodes](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md) を参考にご自身の使いやすいレイアウトに変更してお使いになられると良いかもしれません.  
+[pico/65keys/keymaps/jis](https://github.com/qmk/qmk_firmware/blob/master/keyboards/pico/65keys/keymaps/jis/keymap.c) に JIS-like配列を置いていますが、[Qmk Firmware](https://github.com/qmk/qmk_firmware) の [keycodes](https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md) を参考にご自身の使いやすいレイアウトに変更してお使いになられると良いかもしれません.  
 
 ```sh
 $ cd path/to/qmk_firmware
 $ make pico/65keys:jis:flash
 ```
 
-### 70キーとして書き込む場合
+### 70キー用キーマップを書き込む場合
 
-`65keys` の箇所を `70keys` に変更して上記1.〜3.を実行します.
+`65keys` の箇所を `70keys` に変更して上記1.〜3.を実行します.  
+※ JIS-like配列 は [pico/70keys/keymaps/jis](https://github.com/qmk/qmk_firmware/blob/master/keyboards/pico/70keys/keymaps/jis/keymap.c) に 置いています.  
 
 ```sh
 $ cd path/to/qmk_firmware
